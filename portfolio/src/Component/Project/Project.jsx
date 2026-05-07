@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ecommerce from "../../assets/doctor.png";
 import HRMS from "../../assets/hrm.jpg";
+import web from "../../assets/web.jpg";
 import Kanno from "../../assets/Kidney.png";
 import fintech from "../../assets/fintech.png";
 import SKG from "../../assets/skg.png";
