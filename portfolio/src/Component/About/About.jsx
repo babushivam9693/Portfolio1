@@ -10,7 +10,6 @@ const About = () => {
       <h2 className="text-4xl font-bold mb-12 text-center">About Me</h2>
 
       <div className="flex flex-col lg:flex-row items-center gap-12">
-        {/* Image Section */}
         <div className="flex-shrink-0">
           <img
             src={AboutImg}
@@ -27,9 +26,8 @@ const About = () => {
             I love staying up-to-date with the latest tech trends and continuously improving my skills to create impactful and accessible websites.
           </p>
 
-          {/* Info Cards */}
           <div className="grid gap-6 md:grid-cols-3">
-            {/* Languages Card */}
+         
             <div className="bg-blue bg-opacity-5 backdrop-blur-md border border-white/10 rounded-xl p-5 shadow-lg hover:scale-[1.03] transition duration-300">
               <h3 className="text-lg font-semibold mb-3 border-b border-gray-600 pb-1">Languages</h3>
               <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
